@@ -1,0 +1,114 @@
+* {
+  font-family: "Lucida Sans", cursive;
+  font-weight: 100;
+body {
+  background-color: #000;
+}
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #444;
+  margin: 50px 50px;
+  padding: 20px;
+  border: 20px solid #000;
+  outline: 4px solid #094;
+}
+
+.form {
+  min-width: 400px; 
+  flex: 1;
+  text-align: center;
+  padding: 30px;
+  order: 5;
+}
+.form__input{
+  width: 100%;
+  padding: 7px;
+  margin: 9px 0;
+  border: none;
+  border-bottom: 5px solid rgb(43, 148, 50);
+  background: transparent;
+  color: #fff;
+}
+
+.form__input:focus{
+  background: linear-gradient(to left, transparent, #333);
+  outline: none;
+  border-bottom: 5px solid #222;
+}
+.form textarea{
+  min-height: 150px;
+  resize: none;
+  min-width: 100%;
+}
+.form-img{
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  min-width: 300px;
+  max-width: 400px;
+  order: 2;
+}
+
+.form-img div{
+  padding: 10px;
+  
+}
+
+.img-container{
+  
+  margin: auto;
+  
+  
+}
+
+.img-container div {
+  background-color: #094;
+  border-radius: 80%;
+  text-align: center;
+  padding: 40px;
+}
+
+.form-img img{
+  width: 80%;
+  }
+.form input[type="submit"] {
+  background-color: #1c7;
+  border-bottom: none;
+  padding: 12px;
+}
+.form input[type="submit"]:hover {
+  background-color: #062;
+  border-bottom: none;
+  padding: 12px;
+}
+.form input[type="submit"]:focus {
+  background: #094;
+}
+.form input[type="submit"]:active {
+  background: linear-gradient(to bottom, #094, #072);
+}
+
+
+
+
+/*BOX MODEL */
+/*
+h2 {
+    background-color: #a22;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;        /* it makes the box not have el height no multiplicado por el padding*/
+/* text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;                  /* one 1em is 16 pixels */
+/* border: 10px solid #a22;
+    box-shadow: 30px 10px  10px 10px #000;
+    text-shadow: 2px 2px 7px #fff ;
+    transform: rotate(-45deg);
+}
+*/
